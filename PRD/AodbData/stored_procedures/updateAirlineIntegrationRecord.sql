@@ -18,7 +18,7 @@ set @succ = charindex('success', @response);
 if @succ > 0
 begin
 	update	AirlineIntegration
-	set		statuscode = 200,
+	set		statuscode = 201,
 			response = @response,
 			status = 'Success',
 			[timestamp] = getdate(),
