@@ -1,7 +1,5 @@
-# db-test
-A repository to store DB related sql files/info
 
-### placeholder for permanent db backup
+## placeholder for permanent db backup
 
 #### PRD
 - Different hosts can be added as folders here
